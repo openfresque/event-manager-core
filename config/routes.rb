@@ -31,8 +31,4 @@ OpenFresk::Engine.routes.draw do
       post :facilitator_registration
     end
   end
-
-  namespace :api do
-    resources :users
-  end
 end
